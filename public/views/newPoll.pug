@@ -1,0 +1,23 @@
+html
+    head
+        title Voting App
+        
+
+    link(href="https://fonts.googleapis.com/css?family=Roboto:400,500", rel="stylesheet", type="text/css")
+    link(href="/public/css/main.css", rel="stylesheet", type="text/css")
+    link(rel="stylesheet", href="/public/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/public/css/bootstrap-social.css")
+    script(src="/public/js/react.js")
+    script(src="/public/js/react-dom.js")
+    script(src="/public/js/browser.min.js")
+    script(src="/public/js/react-bootstrap.min.js")
+
+    body
+        include ../html_snippets/navbarAuth.html
+        div(id="main" class="somePadding")
+    
+    script.
+        // global variable to be used for db queries
+        var chartId = "#{chartId}";
+    script(type="text/javascript", src="/common/ajax-functions.js")
+    script(type="text/babel", src="/controllers/newPollMaker.client.js")

@@ -1,0 +1,92 @@
+/****** Main Styling ******/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 8px 0 0 0;
+}
+
+.container p {
+    text-align: center;
+    padding: 0;
+}
+
+
+/****** Login Styling ******/
+
+#login-btn {
+    width: 225px;
+}
+
+.btn p {
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+
+.btn > img {
+    float: left;
+    margin-left: 10px
+}
+
+/****** Logo Div Styling ******/
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+/****** Click Styling ******/
+.btn {  /* Styling for buttons */
+    margin: 0 8px;
+    color: white;
+    background-color: #00BCD4;
+    display: inline-block;
+    border: 0;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px 5px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.btn:focus {    /* Remove outline when hovering over button */
+    outline: none;
+}
+
+.btn:active {   /* Scale the button down by 10% when clicking on button */
+    transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+}
+
+
+/****** Profile Styling ******/
+span {
+    font-weight: 500;
+}
+
+
+
+/* Added by Sunny Thodupunuri */
+#main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.narrow {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#listContainer {
+    width: 75%;
+}
+.someMargin {
+    margin-left: 1em;
+}
+textarea { resize:vertical ; }

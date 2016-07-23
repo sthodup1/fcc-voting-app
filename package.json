@@ -1,0 +1,31 @@
+{
+  "name": "fcc-voting-app",
+  "version": "1.0.0",
+  "description": "A voting app that uses github authentication.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthodup1/fcc-voting-app.git"
+  },
+  "author": "Sunny Thodupunuri",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.12.4",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.5.5",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta4"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthodup1/fcc-voting-app/issues"
+  },
+  "homepage": "https://github.com/sthodup1/fcc-voting-app#readme"
+}
